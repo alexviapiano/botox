@@ -3919,6 +3919,10 @@ body {
 }
 
 #header > .navPanelToggle {
+
+  /* HIDE MENU BTN */
+  display: none !important;
+
   -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     top 0.2s ease-in-out, right 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
